@@ -1,9 +1,11 @@
-import Image from "next/image";
-
+import Navbar from "../components/Navbar";
+import Presentacion from "../components/Presentacion";
 export default function Home() {
   return (
     <main>
-      <h1>Mi Tienda Online</h1>
+      <Navbar />
+
+      <Presentacion />
     </main>
   );
 }
